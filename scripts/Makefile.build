@@ -648,9 +648,9 @@ targets += $(multi-used-y) $(multi-used-m)
 # Descending
 # ---------------------------------------------------------------------------
 
-PHONY += $(subdir-ym)
-$(subdir-ym):
-	$(Q)$(MAKE) $(build)=$@
+# PHONY += $(subdir-ym)
+# $(subdir-ym):
+# 	$(Q)$(MAKE) $(build)=$@
 
 # Add FORCE to the prequisites of a target to force it to be always rebuilt.
 # ---------------------------------------------------------------------------
