@@ -7,7 +7,7 @@
 #include <ctype.h>
 #include <errno.h>
 #include <string.h>
-#include <limits.h>
+#include "limits.h"
 #include "modpost.h"
 
 /*
